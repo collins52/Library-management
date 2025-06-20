@@ -1,0 +1,28 @@
+li{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 88vw;
+    padding: 6px 12px;
+    margin: 20px auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+    margin: 20px 12px 15px 50px;
+    padding-left: 50px;
+}
+
+/* .edit{
+    flex-shrink: 0;
+    background-color: green;
+} */
+
+.userInfo{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+    margin: 20px 12px 15px 50px;
+}

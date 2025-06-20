@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/header';
+import Button from './components/button';
+import Input from './components/input';
+import Userspage from './components/usersPage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Header/>
+    <Button
+    label='Manage Users'
+    icon={<img src='./assets/edit.svg'/>} className = 'manageUserBtn'
+    />
+    <Input placeholder='Name'/>
+    <div id='listTitle'>
+      <p>Readers Name</p>
+      <p>Readers ID</p>
     </div>
+    <Userspage />
+    </>
   );
 }
 

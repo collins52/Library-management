@@ -1,0 +1,10 @@
+@import './variable.css';
+
+input{
+    width: 165px;
+    height: 38px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    border: none;
+    padding: 15px;
+}
