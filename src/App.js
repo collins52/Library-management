@@ -8,10 +8,10 @@ function App() {
   return (
     <>
     <Header/>
-    <Button
+    {/* <Button
     label='Manage Users'
     icon={<img src='./assets/edit.svg'/>} className = 'manageUserBtn'
-    />
+    /> */}
     <Input placeholder='Name'/>
     <div id='listTitle'>
       <p>Readers Name</p>

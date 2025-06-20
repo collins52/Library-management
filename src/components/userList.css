@@ -7,22 +7,24 @@ li{
     margin: 20px auto;
 }
 
-.buttons{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid blue;
-    margin: 20px 12px 15px 50px;
-    padding-left: 50px;
+.emptyDiv{
+    border: 1px solid black;
+    width: 50%;
 }
 
-/* .edit{
-    flex-shrink: 0;
-    background-color: green;
-} */
+.buttonDiv{
+    width: 50%;
+    border: 1px solid red;
+}
+
+.buttons{
+    display: flex;
+    border: 1px solid blue;
+}
 
 .userInfo{
     display: flex;
     justify-content: space-between;
     border: 1px solid blue;
-    margin: 20px 12px 15px 50px;
+    /* margin: 20px 12px 15px 50px; */
 }
